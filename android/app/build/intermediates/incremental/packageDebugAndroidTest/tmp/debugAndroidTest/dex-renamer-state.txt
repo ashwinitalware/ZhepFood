@@ -1,0 +1,10 @@
+#Sat Oct 07 12:53:11 IST 2023
+base.0=D\:\\React_Ionic_Project\\ZhepFood\\android\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeExtDexDebugAndroidTest\\classes.dex
+base.1=D\:\\React_Ionic_Project\\ZhepFood\\android\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\0\\classes.dex
+base.2=D\:\\React_Ionic_Project\\ZhepFood\\android\\app\\build\\intermediates\\dex\\debugAndroidTest\\mergeProjectDexDebugAndroidTest\\10\\classes.dex
+path.0=classes.dex
+path.1=0/classes.dex
+path.2=10/classes.dex
+renamed.0=classes.dex
+renamed.1=classes2.dex
+renamed.2=classes3.dex
