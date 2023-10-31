@@ -1,0 +1,10 @@
+.bgicon{
+    z-index: 1000;
+    position: absolute;
+    margin-top: -15%;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    margin-left: 36%;
+    /* border: 2PX red SOLID; */
+}

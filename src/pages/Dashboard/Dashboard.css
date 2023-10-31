@@ -1,0 +1,147 @@
+ion-searchbar.custom {
+    --background: #ffffff;
+    --border-image: red;
+    --color: rgb(51, 51, 51);
+    --placeholder-color: rgb(39, 39, 39);
+    --clear-button-color: rgb(36, 36, 36);
+    --border: 1px solid red;
+    --border-radius: 4px;
+    padding: 10px;
+}
+
+ion-searchbar.ios.custom {
+    --cancel-button-color: #19422d;
+}
+
+ion-searchbar.md.custom {
+    --cancel-button-color: #fff;
+}
+
+.divimg{
+    z-index: 10000; 
+    margin-top:8px; 
+    margin-left:5px;  
+    position:absolute;
+}
+.imgdiv2{
+    z-index: 2000; 
+    background-color: blue; 
+    width: 20%;
+}
+
+.dineincode{
+    color: white; 
+    padding: 4%;
+}
+.ioncardcontentclass{
+    background-color: rgb(250, 250, 250);
+}
+
+.chips_div {
+    display: flex;
+    flex-direction: row;
+    overflow: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 12px;
+    background-color: fff;
+    padding: 5px 20px;
+
+    ::-webkit-scrollbar {
+        width: 0px;
+        background: transparent;
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: transparent;
+    }
+
+    .chip {
+        margin-right: 20px;
+        white-space: nowrap;
+        color: black;
+    }
+
+    .chip hover {
+        border-bottom: 3px solid red;
+        font-size: bold;
+    }
+
+    ion-label:hover {
+        border-bottom: 3px solid red;
+        font-weight: bold;
+        white-space: nowrap;
+
+    }
+
+    .selected {
+        border-radius: 3px;
+        padding: 5px 20px;
+        margin-right: 10px;
+        white-space: nowrap;
+        background: var(--ion-color-primary);
+        color: white;
+        font-size: 12px;
+        font-weight: bold;
+        border: 1px solid lightgray;
+        border-radius: 5px;
+    }
+}
+
+
+.animated {
+    background-repeat: no-repeat;
+    background-position: left top;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+
+@-webkit-keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+    }
+}
+
+@keyframes fadeInDown {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.fadeInDown {
+    -webkit-animation-name: fadeInDown;
+    animation-name: fadeInDown;
+}
+
+.div_searchbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: -3px;
+
+
+    .search_bar {
+        padding: 0px;
+        width: 100%;
+        background-color: #ffffff;
+    }
+}
+

@@ -1,7 +1,7 @@
 import { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
-  appId: 'io.ionic.starter',
+  appId: 'io.zhep.food',
   appName: 'ZhepFood',
   webDir: 'dist',
   server: {

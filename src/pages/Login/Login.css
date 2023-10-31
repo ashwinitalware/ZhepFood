@@ -1,0 +1,35 @@
+.btns {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0px;
+  
+    .flagActive{
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        border: 2px solid var(--ion-color-primary);
+        margin: 0px 10px;
+    }
+  
+    .flagDeactive {
+        height: 45px;
+        width: 45px;
+        margin: 0px 10px;
+        opacity: 0.5;
+    }
+  } 
+  
+  .btn_class {
+    color: white;
+    height: 50px;
+  }
+  
+  /* .bg-class {
+    --background: url("assets/foodbg.png") 0 0/100% 100% no-repeat
+  } */
+
+  .bg-class {
+    --background: url("../../assets/foodbg.png") 0 0/100% 100% no-repeat;
+  }

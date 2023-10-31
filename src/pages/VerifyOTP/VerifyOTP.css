@@ -1,0 +1,7 @@
+/* .bg-class {
+    --background: url("assets/foodbg.png") 0 0/100% 100% no-repeat
+    } */
+
+    .bg-class {
+        --background: url("../../assets/foodbg.png") 0 0/100% 100% no-repeat;
+      }
